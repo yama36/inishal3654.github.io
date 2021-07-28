@@ -1,0 +1,44 @@
+body {
+  background: hsl(182, 25%, 50%);
+  padding: 48px;
+  margin: 0;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  background: hsl(182, 50%, 95%);
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.book-container > img, .book-container > div{
+  display: flex;
+}
+
+.book > img, .book > .txt {
+  border-radius: 8px;
+  margin: 16px;
+}
+
+.book > .txt {
+  margin: auto;
+  padding: 16px;
+}
+
+.book {
+  background: white;
+  padding: 8px;
+  margin: 16px;
+  border-radius: 8px;
+}
+
+.book:nth-child(even) {
+  flex-direction: row-reverse;
+}
